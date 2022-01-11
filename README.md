@@ -10,11 +10,11 @@ We need an architectural layout of the database with source code, documentation,
 
 ### Major Functional Requirements
 
-Must track inventory.
-Must track and sell spare parts by part name and part number.
-Vendors must be tracked and associated with products.
-Must accept large volumes of data and be scalable to local and national web traffic.
-Must accept quotations from customer and return list of information regarding quoted spare parts (history of prices, location of part(s), suppliers/buyers, and dates)
+- Must track inventory.
+- Must track and sell spare parts by part name and part number.
+- Vendors must be tracked and associated with products.
+- Must accept large volumes of data and be scalable to local and national web traffic.
+- Must accept quotations from customer and return list of information regarding quoted spare parts (history of prices, location of part(s), suppliers/buyers, and dates)
 
 ### Entities 
 - Part
