@@ -18,19 +18,21 @@ Must accept quotations from customer and return list of information regarding qu
 
 ### Entities 
 
-Parts
-Supplier
-Buyers 
-Location
-Sales
-User
-Quotation
+Markup : * Part
+Markup : * PartStored
+Markup : * PartSupplied
+Markup : * Supplier
+Markup : * Buyer 
+Markup : * Location
+Markup : * Sales
+Markup : * Employee
+Markup : * Quotation
 
 ### Assumptions
-User logs in to make a quotation for parts but does not make purchase(s) through the application.
-Employee files invoices after receiving a quotation.
-Onsite managers have to manually monitor inventory in-flow/out-flow based on their respective locations.
-Inventory warehouse will have adequate storage capacity.
+Markup : 1. User logs in to make a quotation for parts but does not make purchase(s) through the application.
+Markup : 2. Employee files invoices after receiving a quotation.
+Markup : 3. Onsite managers have to manually monitor inventory in-flow/out-flow based on their respective locations.
+Markup : 4. Inventory warehouse will have adequate storage capacity.
 
 ### Architecture
 
