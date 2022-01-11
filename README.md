@@ -17,22 +17,21 @@ Must accept large volumes of data and be scalable to local and national web traf
 Must accept quotations from customer and return list of information regarding quoted spare parts (history of prices, location of part(s), suppliers/buyers, and dates)
 
 ### Entities 
-
-Markup : * Part
-Markup : * PartStored
-Markup : * PartSupplied
-Markup : * Supplier
-Markup : * Buyer 
-Markup : * Location
-Markup : * Sales
-Markup : * Employee
-Markup : * Quotation
+- Part
+- PartStored
+- PartSupplied
+- Supplier
+- Buyer 
+- Location
+- Sales
+- Employee
+- Quotation
 
 ### Assumptions
-Markup : 1. User logs in to make a quotation for parts but does not make purchase(s) through the application.
-Markup : 2. Employee files invoices after receiving a quotation.
-Markup : 3. Onsite managers have to manually monitor inventory in-flow/out-flow based on their respective locations.
-Markup : 4. Inventory warehouse will have adequate storage capacity.
+1. User logs in to make a quotation for parts but does not make purchase(s) through the application.
+2. Employee files invoices after receiving a quotation.
+3. Onsite managers have to manually monitor inventory in-flow/out-flow based on their respective locations.
+4. Inventory warehouse will have adequate storage capacity.
 
 ### Architecture
 
