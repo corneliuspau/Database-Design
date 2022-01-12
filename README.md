@@ -1,39 +1,49 @@
 # Inventory Management Database Design - Project Lightyear
 
-### Project Background/Description
+## Project Background/Description
 
 I currently own a business dealing with agricultural spare parts and I want to have my own inventory management system that works online/offline. Create a DB definition that allows me to track purchases (customer sales history and supplier purchase history), inventory and its location, and the ability to receive quotations from prospective customers that will show recent purchases (bought and sold).
 
-### Project Scope
+## Project Scope
 
 We need an architectural layout of the database with source code, documentation, a diagram, and a plan / writeup for a proof of concept to be used for interview purposes. The code should adhere to best practices and be scalable, the documentation should be informative and consistent while easy to read and navigate for reference, the diagram should be clear and helpful, and the writeup should explain the project in detail.
 
-### Major Functional Requirements
+## Major Functional Requirements
 
-- Must track inventory.
-- Must track and sell spare parts by part name and part number.
-- Vendors must be tracked and associated with products.
-- Must accept large volumes of data and be scalable to local and national web traffic.
-- Must accept quotations from customer and return list of information regarding quoted spare parts (history of prices, location of part(s), suppliers/buyers, and dates)
+> 1. Must track inventory <br />
+> 2. Must track and sell spare parts by part name and part number. <br />
+> 3. Vendors must be tracked and associated with products. <br />
+> 4. Must accept large volumes of data and be scalable to local and national web traffic. <br />
+> 5. Must accept quotations from customer and return list regarding quoted spare parts. <br />
 
-### Entities 
-- Part
-- PartStored
-- PartSupplied
-- Supplier
-- Buyer 
-- Location
-- Sales
-- Employee
-- Quotation
+## Entities 
+- Part <br />
+- PartStored <br />
+- PartSupplied <br />
+- Supplier <br />
+- Buyer <br />
+- Location <br />
+- Sales <br />
+- Employee <br />
+- Quotation <br />
 
-### Assumptions
-1. User logs in to make a quotation for parts but does not make purchase(s) through the application.
-2. Employee files invoices after receiving a quotation.
-3. Onsite managers have to manually monitor inventory in-flow/out-flow based on their respective locations.
-4. Inventory warehouse will have adequate storage capacity.
+## Assumptions
+> 1. User logs in to make a quotation for parts but does not make purchase(s) through the application. <br />
+> 2. Employee files invoices after receiving a quotation. <br />
+> 3. Onsite managers have to manually monitor inventory in-flow/out-flow based on their respective locations. <br />
+> 4. Inventory warehouse will have adequate storage capacity. <br />
 
-### Architecture
+## Architecture
 
-Tables must be efficient, enforce data integrity, lack redundancy, and be sensible.
+> 1. Tables must be efficient, enforce data integrity, lack redundancy, and be sensible. <br />
+> 2. Tables must be normalized to at least 3NF. <br />
+> 3. Primary key and foreign key constraints and references should be created. <br />
+> 4. Seed increment and identity must be planned. <br />
+> 5. Smallest data type must be used. <br />
+> 6. Data types, naming conventions, and schema design should adhere to best practice. <br />
+> 7. Temporal tables for later analysis. <br />
+> 8. Data types should be carefully planned. <br />
+> 9. Nulls should be carefully planned. <br />
+> 10. Schemas should be used to keep tables compartmentalized. <br />
 
+## Deliverables 
